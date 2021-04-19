@@ -1,0 +1,104 @@
+:root {
+    --celeste: #289dad;
+    --blanco: #fff;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Lobster", cursive;
+    font-family: "Cabin", sans-serif;
+    background: #000;
+}
+
+.header{
+    min-height: 100vh;
+}
+
+.header .navbar{
+    background:royalblue;}
+
+h2 {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    position: relative;
+    margin-top: 1em;
+}
+
+hr{
+    background-color: var(--celeste);
+    width: 90%;  
+    margin: 60px; 
+    
+}
+
+
+.contenido{
+    color: white;
+}
+
+.caja{
+    display: table-cell;
+    padding: 3%;
+   
+}
+
+p{
+    margin: 10px;
+    text-align: justify;
+
+    
+}
+.fav-icon{
+    color:var(--blanco);
+    background-color: var(--celeste);
+    padding: 8px;
+    border-radius: 3px;
+
+}
+.fas{
+    margin-left: 45%;
+    font-size: 30px;
+}
+
+.card{
+    margin: 45px, 0, 45px, 0;
+       
+}
+.card-body{
+    background: var(--celeste);
+    color: var(--blanco);
+}
+
+.col{
+    margin-top: 15px;
+}
+
+footer{
+    background-color: var(--celeste);
+    padding: 15px;
+    color: var(--blanco);
+    text-align:center;
+}
+
+
+
+.contacto h3{
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.fab {
+    color: var(--blanco);
+}
+
+.typeform-widget{
+    
+    padding: 30px;
+    text-align: center;
+}
+
